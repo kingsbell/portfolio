@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soleh Wahyu Pratama</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Icon -->
     <link rel="icon" href="img/icon.png" type="iamge/x-icon" />
     <!-- End Icon -->
@@ -55,7 +56,7 @@
     <section id="home" class="pt-36">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full self-center px-4 lg:w-1/2">
+          <div data-aos="fade-right" class="w-full self-center px-4 lg:w-1/2">
             <h1 class="font-semibold text-primary mb-1 text-4xl md:text-xl">Soleh Wahyu Pratama</h1>
             <h2 class="font-medium text-grey text-lg mb-5 lg:text-4 xl">Junior Web Developer | Junior Data Analis</h2>
             <blockquote class="leading-relaxed italic font-semibold mb-10 text-grey text-justify">
@@ -64,7 +65,7 @@
 
             <a href="cv/CV-Soleh-Wahyu-Pratama.pdf" class="text-base font-semibold text-white bg-blue py-3 px-3 rounded hover:shadow-lg hover:bg-blue1 duration-300 ease-in-out" download>Download CV</a>
           </div>
-          <div class="w-full self-end px-4 lg:w-1/2">
+          <div data-aos="fade-left" class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:mt-9 lg:right-0">
               <img src="img/fotoku.png" alt="Soleh Wahyu Pratama" class="max-w-full mx-auto" />
               <span class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-110">
@@ -1367,7 +1368,7 @@
             </div>
           </div>
 
-          <div class="w-full px-4 mb-10 lg:w-1/2 self-center">
+          <div data-aos="fade-left" class="w-full px-4 mb-10 lg:w-1/2 self-center">
             <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
             <p class="font-medium text-base text-justify text-grey max-w-xl lg:text-lg">
               Halo! Perkenalkan nama saya Soleh Wahyu Pratama saya berumur 21 tahun yang berdomisili di daerah Kp. Seketimbang, Kota Bandung. Saya memiliki kepribadian suka belajar hal-hal yang baru, suka mencari solusi untuk memecahkan
@@ -1646,5 +1647,9 @@
     </footer>
     <!-- End Footer -->
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
